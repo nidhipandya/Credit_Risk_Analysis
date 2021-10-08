@@ -22,7 +22,7 @@ Below are the results of different algorithms
 
 Random oversampling duplicates examples from the minority class in the training dataset and can result in overfitting for some models. Also here, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
 
-![img1](https://github.com/nidhipandya/Credit_Risk_Analysis/tree/blob/main/Resources/images/img1.png)
+![img1](https://github.com/nidhipandya/Credit_Risk_Analysis/blob/main/Resources/images/img1.PNG)
 
 The accuracy score of this model is around 64%
 The precision for low risk loans is almost 100% but the precision for high risk loans is very low around 1%.
@@ -31,7 +31,7 @@ The precision for low risk loans is almost 100% but the precision for high risk 
 
 SMOTE is an oversampling technique that generates synthetic samples from the minority class.
 
-![img2](https://github.com/nidhipandya/Credit_Risk_Analysis/tree/blob/main/Resources/images/img2.png)
+![img2](https://github.com/nidhipandya/Credit_Risk_Analysis/blob/main/Resources/images/img2.PNG)
 
 The accuracy score of this model is around 62%
 The precision for low risk loans is almost 100% but the precision for high risk loans is very low around 1%.
@@ -41,7 +41,7 @@ The precision for low risk loans is almost 100% but the precision for high risk 
 ##### Cluster centroid undersampling
 Undersample by generating centroids based on clustering methods. The algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters.
 
-![img3](https://github.com/nidhipandya/Credit_Risk_Analysis/tree/blob/main/Resources/images/img3.png)
+![img3](https://github.com/nidhipandya/Credit_Risk_Analysis/blob/main/Resources/images/img3.PNG)
 
 The accuracy score of this model is around 51%.
 The precision for low risk loans is almost 100% but the precision for high risk loans is very low around 1%.
@@ -53,7 +53,7 @@ SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms. SMOTE
 	1. Oversample the minority class with SMOTE.
 	2. Clean the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
 
-![img4](https://github.com/nidhipandya/Credit_Risk_Analysis/tree/blob/main/Resources/images/img4.png)
+![img4](https://github.com/nidhipandya/Credit_Risk_Analysis/blob/main/Resources/images/img4.PNG)
 
 The accuracy score of this model is around 64%.
 The precision for low risk loans is almost 100% but the precision for high risk loans is very low around 1%.
@@ -62,7 +62,7 @@ The precision for low risk loans is almost 100% but the precision for high risk 
 
 A balanced random forest randomly under-samples each boostrap sample.
 
-![img5](https://github.com/nidhipandya/Credit_Risk_Analysis/tree/blob/main/Resources/images/img5.png)
+![img5](https://github.com/nidhipandya/Credit_Risk_Analysis/blob/main/Resources/images/img5.PNG)
 
 The accuracy score of this model is around 87%.
 The precision for low risk loans is almost 100% but the precision for high risk loans is very low around 3%. here precision is increased compared to other models.
@@ -70,7 +70,7 @@ The precision for low risk loans is almost 100% but the precision for high risk 
 #### Easy Ensemble AdaBoost Classifier
 Ensemble learning is the process of combining multiple models, like decision tree algorithms, to help improve the accuracy and robustness, as well as decrease variance of the model
 
-![img6](https://github.com/nidhipandya/Credit_Risk_Analysis/tree/blob/main/Resources/images/img6.png)
+![img6](https://github.com/nidhipandya/Credit_Risk_Analysis/blob/main/Resources/images/img6.PNG)
 
 The accuracy score of this model is around 93%.
 The precision for low risk loans is almost 100% but the precision for high risk loans is very low around 9%. It has highest precision for high risk loans compared to other models.
